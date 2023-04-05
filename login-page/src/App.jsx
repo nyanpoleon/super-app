@@ -1,3 +1,4 @@
+import React from 'react';
 import Register from './Register.jsx'
 import './App.css';
 // import landingimage from './resources/landingimage.png';
@@ -5,10 +6,10 @@ import './App.css';
 function App() {
   return (
     <Register />
-    
-    
-    
+     
   );
+
 }
+
 
 export default App;
