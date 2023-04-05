@@ -79,4 +79,22 @@
 
     color: #FFFFFF;
   }
+
+  .loginBtn {
+    background: #72DB73;
+    border-radius: 2rem;
+    border: none;
+    height: 2rem;
+    width: 7rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 108.69%;
+    margin-left: 1rem;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+  }
 }

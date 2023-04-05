@@ -8,7 +8,7 @@ function Register() {
       <div className='left-half'>
         <div className='imgheader'>
           <div>Already have an account?</div> 
-          <button className='loginBtn'>Login</button>
+          <button className='loginBtn'>LOGIN</button>
         </div>
         <div className='imgfooter'>
           Discover new things on Superapp
