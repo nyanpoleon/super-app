@@ -14,6 +14,14 @@ function Register() {
     checkbox: false,
   });
 
+  const [errorMessage, setErrorMessage] = useState({
+    name: "",
+    username: "",
+    email: "",
+    phone: "",
+    checkbox: false,
+});
+
   const handleChange = (event) => {
     const { name, value, type, checked } = event.target;
     setFormData({
