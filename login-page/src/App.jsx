@@ -1,5 +1,5 @@
 import React from 'react';
-import Register from './Register.jsx'
+import Register from './pages/Register.jsx'
 import './App.css';
 // import landingimage from './resources/landingimage.png';
 
