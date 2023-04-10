@@ -112,12 +112,25 @@
     background-color: #000000;
   }
   .formInput {
-    color: #72DB73;
+    font-family: 'DM Sans';
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 139.69%;
+    
+    letter-spacing: 0.02em;
+    margin-left: 5rem;
+    color: #7C7C7C;
     
   }
   input {
-    width: 25rem;
-    padding: 1rem;
+    text-align: left;
+    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 15.5rem;
     margin: 10px 0px;
     background-color: #292929;
     color: #7C7C7C;
@@ -168,6 +181,7 @@
     font-size: 20px;
     line-height: 108.69%;
     letter-spacing: 0.08em;
+    margin-left: 5rem;
   }
 
   .logo {
@@ -178,7 +192,7 @@
     padding-top: 20px;
     justify-content: center;
     align-items: center;
-    padding-left: 20%;
+    
     padding-right: 20%;
   }
 
@@ -189,14 +203,18 @@
     font-weight: 500;
     font-size: .7rem;
     line-height: 141.69%;
-    /* or 26px */
-
+    
+    margin-left: 5rem;
     letter-spacing: 0.02em;
 
     color: #7C7C7C;
   }
   span {
     color: #72DB73;
+  }
+
+  .checkbox-label {
+    margin-left: 20px;
   }
 }
 
