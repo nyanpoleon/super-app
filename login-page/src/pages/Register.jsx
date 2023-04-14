@@ -64,6 +64,11 @@ function Register() {
   const onChange = (event) => {
     setFormData({ ...formData, [event.target.name]: event.target.value });
   };
+
+  const handleSignUp = () => {
+    // Save form data to local storage
+    localStorage.setItem("formData", JSON.stringify(formData));
+  };
   return (
     <div className="register-page">
       <div className="left-half">
@@ -90,7 +95,7 @@ function Register() {
               />
             ))}
 
-            <button className="signupBtn">SIGN UP</button>
+            <button className="signupBtn" onClick={handleSignUp}>SIGN UP</button>
             <div className="TnC">
               <p className="tncText">
                 By clicking on Sign up. you agree to Superapp <span>Terms and
