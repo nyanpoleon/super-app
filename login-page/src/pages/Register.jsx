@@ -18,6 +18,7 @@ function Register() {
       name: "name",
       type: "text",
       placeholder: "Name",
+      errorMessage: "Please provide your name.",
       required: true,
     },
     {
@@ -25,6 +26,8 @@ function Register() {
       name: "username",
       type: "text",
       placeholder: "UserName",
+      pattern:".{3,16}",
+      errorMessage: "The username should be 3-16 characters",
       required: true,
     },
     {
@@ -32,6 +35,7 @@ function Register() {
       name: "email",
       type: "email",
       placeholder: "Email",
+      errorMessage: "Input a valid email ID",
       required: true,
     },
     {
@@ -39,12 +43,15 @@ function Register() {
       name: "mobile",
       type: "text",
       placeholder: "Mobile",
+      pattern: "[0-9]{10}",
+      errorMessage: "Please provide your number.",
       required: true,
     },
     {
       id: 5,
       name: "check",
       type: "checkbox",
+      errorMessage: "Please check this checkbox.",
       label: "Share my registration data with SuperApp",
       required: true,
     },

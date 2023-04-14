@@ -112,6 +112,9 @@
     background-color: #000000;
   }
   .formInput {
+    display: flex;
+    flex-direction: column;
+    width: 27rem;
     font-family: 'DM Sans';
     text-align: left;
     font-style: normal;
@@ -120,7 +123,7 @@
     line-height: 139.69%;
     
     letter-spacing: 0.02em;
-    margin-left: 5rem;
+    
     color: #7C7C7C;
     
   }
@@ -181,7 +184,7 @@
     font-size: 20px;
     line-height: 108.69%;
     letter-spacing: 0.08em;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
   }
 
   .logo {
@@ -193,7 +196,7 @@
     justify-content: center;
     align-items: center;
     
-    padding-right: 20%;
+    /* padding-right: 20%; */
   }
 
   .tncText {
@@ -204,7 +207,7 @@
     font-size: .7rem;
     line-height: 141.69%;
     
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
     letter-spacing: 0.02em;
 
     color: #7C7C7C;
@@ -215,6 +218,21 @@
 
   .checkbox-label {
     margin-left: 20px;
+  }
+
+  .errorMessage {
+    color: red;
+    font-size: 0.8rem;
+    display: none;
+    
+  }
+
+
+  input:invalid[focused="true"] {
+    border: 1px solid red;
+  }
+  input:invalid[focused="true"] ~ .errorMessage {
+    display: block;
   }
 }
 
