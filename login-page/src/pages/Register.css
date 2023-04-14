@@ -140,7 +140,12 @@
     border: none;
     border-radius: .25rem;
   }
+  
+  input[type="text"], textarea {
 
+    background-color : #292929; 
+  
+  }
   .text-under-logo {
     font-family: 'DM Sans';
     font-style: normal;
