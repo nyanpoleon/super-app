@@ -1,5 +1,15 @@
+import React from "react"
+import "./Category.css"
+
 function Category() {
-    <h1>Hello</h1>
+    return(
+        <div className="main">
+            <div className="leftpanel">left panel</div>
+            <div className="rightpanel">cards go here</div>
+        </div>
+        
+    )
+    
 }
 
 export default Category

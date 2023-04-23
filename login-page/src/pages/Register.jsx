@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Register.css";
 import FormInput from "./form/FormInput";
 import Logo from "../resources/Super app.png";
-
+import {Link} from "react-router-dom"
 function Register() {
   const [formData, setFormData] = useState({
     name: "",
@@ -94,8 +94,8 @@ function Register() {
                 onChange={onChange}
               />
             ))}
-
-            <button className="signupBtn" onClick={handleSignUp}>SIGN UP</button>
+            <Link to="./Category"><button className="signupBtn" onClick={handleSignUp}>SIGN UP</button> </Link>
+            
             <div className="TnC">
               <p className="tncText">
                 By clicking on Sign up. you agree to Superapp <span>Terms and

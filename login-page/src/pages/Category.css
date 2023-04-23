@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftpanel {
+    display: flex;
+    width: 30vw;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.rightpanel {
+    display: flex;
+    width: 80vw;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
