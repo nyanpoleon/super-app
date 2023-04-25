@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Roboto:wght@400;500;900&display=swap');
+
+body {
+    background: #000000;
+}
+
 .main {
     display: flex;
     height: 100vh;
@@ -9,11 +15,13 @@
 
 .leftpanel {
     display: flex;
+    flex-direction: column;
     width: 30vw;
     height: 100vh;
-    align-items: center;
+    margin-left: 5rem;
+    margin-top: 12rem;
     text-align: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 .rightpanel {
@@ -25,3 +33,23 @@
     justify-content: center;
 }
 
+
+.logo {
+    width: 10rem;
+    padding-bottom: 2rem;
+}
+.bigtext {
+    width: 554px;
+    height: 316px;
+    left: 133px;
+    top: 300px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 139.69%;
+    text-align: left;
+
+    color: #FFFFFF
+}
