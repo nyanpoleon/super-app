@@ -33,19 +33,23 @@ const FormInput = (props) => {
   };
 
   const handleSignUp = () => {
-    if (
-      name !== "" &&
-      email !== "" &&
-      username !== "" &&
-      mobile !== "" &&
-      checked === true
-    ) {
+    if (name !== "" && email !== "" && username !== "" && mobile !== "" && checked === true) {
       navigate("/Category");
-      localStorage.setItem("formData", JSON.stringify(props.formData));
+  
+      const formData = {
+        name,
+        email,
+        username,
+        mobile,
+        checked,
+      };
+  
+      localStorage.setItem("formData", JSON.stringify(formData));
     } else {
       setError(true);
     }
   };
+  
 
   return (
     <>
