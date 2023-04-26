@@ -53,3 +53,29 @@ body {
 
     color: #FFFFFF
 }
+
+
+.category-grid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+}
+
+.grid1,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6,
+.grid7,
+.grid8,
+.grid9 {
+    background-color: blueviolet;
+    border-radius: 1.25rem;
+    padding: .7rem;
+    margin: .7rem;
+}
+
+.card-image {
+    width: 10.5rem;
+}
