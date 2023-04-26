@@ -12,6 +12,10 @@ import fantasy from "../resources/category-images/fantasy.png";
 import music from "../resources/category-images/music.png";
 import fiction from "../resources/category-images/fiction.png";
 function Category() {
+
+    const arr = [];
+
+    arr.push('thrillr');
   return (
     <div className="main">
       <div className="leftpanel">
@@ -19,6 +23,9 @@ function Category() {
           <img className="logo" src={Logo} alt="" />
         </div>
         <div className="bigtext">Choose your entertainment category</div>
+        <div className="selected-options">
+
+        </div>
       </div>
       <div className="rightpanel">
         <div className="category-grid">
@@ -49,6 +56,9 @@ function Category() {
           <div className="grid9">
             <Cards title="Action" image={action} />
           </div>
+        </div>
+        <div className="next-page-footer">
+            <button className="nextpageBtn">Next Page</button>
         </div>
       </div>
     </div>

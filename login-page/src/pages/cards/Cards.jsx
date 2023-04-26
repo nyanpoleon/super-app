@@ -1,6 +1,13 @@
+import { useState } from 'react'
 import React from 'react'
 import '../Category.css'
-function Cards({title,image}) {
+function Cards({title, image, onSelect}) {
+  const [selected, setSelected] = useState(false)
+
+  const handleSelect = () => {
+    setSelected(!selected)
+    onSelect({title, selected: !selected})
+  }
   return (
     <div className='card'>
         <div className='card-title'>

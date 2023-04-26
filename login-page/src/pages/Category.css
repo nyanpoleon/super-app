@@ -1,64 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Roboto:wght@400;500;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Roboto:wght@400;500;900&display=swap");
 
 body {
-    background: #000000;
+  background: #000000;
 }
 
 .main {
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .leftpanel {
-    display: flex;
-    flex-direction: column;
-    width: 30vw;
-    height: 100vh;
-    margin-left: 5rem;
-    margin-top: 12rem;
-    text-align: center;
-    justify-content: start;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 100vh;
+  margin-left: 5rem;
+  margin-top: 12rem;
+  text-align: center;
+  justify-content: start;
 }
 
 .rightpanel {
-    display: flex;
-    width: 80vw;
-    height: 100vh;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  height: 80vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
-
 
 .logo {
-    width: 10rem;
-    padding-bottom: 2rem;
+  width: 10rem;
+  padding-bottom: 2rem;
 }
 .bigtext {
-    width: 554px;
-    height: 316px;
-    left: 133px;
-    top: 300px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 4rem;
-    line-height: 139.69%;
-    text-align: left;
+  width: 554px;
+  height: 316px;
+  left: 133px;
+  top: 300px;
 
-    color: #FFFFFF
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 139.69%;
+  text-align: left;
+
+  color: #ffffff;
 }
 
+.selected-options {
+    background-color: #11B800;
+    width: 30rem;
+    height: 15rem;
+}
 
 .category-grid {
-    display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto auto auto;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
 }
 
 .grid1,
@@ -70,12 +75,74 @@ body {
 .grid7,
 .grid8,
 .grid9 {
-    background-color: blueviolet;
-    border-radius: 1.25rem;
-    padding: .7rem;
-    margin: .7rem;
+  
+  border-radius: 1.25rem;
+  padding: 0.1rem 0.7rem 0.4rem 0.7rem;
+  margin: 0.7rem;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  text-align: left;
+  
+}
+
+.grid1 {
+    background-color: #D7A4FF;
+}
+
+.grid2 {
+    background-color: #11B800;
+}
+
+.grid3 {
+    background-color: #84C2FF;
+}
+
+.grid4 {
+    background: #912500;
+}
+.grid5 {
+    background: #7358FF;
+}
+
+.grid6 {
+    background: #FF4ADE;
+}
+
+.grid7 {
+    background-color: #E61E32;
+}
+
+.grid8 {
+    background-color: #6CD061;
+}
+
+.grid9 {
+    background-color: #FF5209;
 }
 
 .card-image {
-    width: 10.5rem;
+  width: 10.5rem;
+}
+
+.next-page-footer {
+  height: 20vh;
+  width: 40vw;
+  text-align: right;
+}
+
+.nextpageBtn {
+    
+  border-radius: 2.4rem;
+  border: none;
+  color: white;
+  background-color: #148a08;
+  padding: .8rem 1.5rem .8rem 1.5rem;
+  margin-top: 14px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 92.2%;
 }
